@@ -16,6 +16,4 @@ let inputs = document.getElementsByClassName('col-lg-12');for(let i = 0; i < inp
 
 5. And voila! All options marked with "5" will be clicked. You can now scroll down and submit, or change answers if you want. 
 
-student senate pls dont kill thx :)
-
 just a proof of concept, i totally didn't use it or anything :o
