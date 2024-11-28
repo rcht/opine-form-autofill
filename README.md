@@ -1,5 +1,7 @@
 # IIITD Feedback Form Autofiller
 
+**UPDATE Nov 2025: see the last commit for Opine forms. IIITD has shifted to a new platform, Nurecampus. But they still can't stop me, MWAHAHAHA**
+
 Le steps:
 
 1. Open form in browser
@@ -8,12 +10,9 @@ Le steps:
 
 3. Go to console
 
-4. Copy and paste the following into the console
+4. Copy and paste the contents of `fill.js` into the console.
 
-```
-let inputs = document.getElementsByClassName('col-lg-12');for(let i = 0; i < inputs.length; ++i){let clickables = inputs[i].getElementsByTagName('input');if(clickables.length){clickables[4].click();}}
-```
 
-5. And voila! All options marked with "5" will be clicked. You can now scroll down and submit, or change answers if you want. 
+5. And voila! The first option for every non-text question will be clicked. You can now scroll down and save, or change answers if you want. 
 
 just a proof of concept, i totally didn't use it or anything :o
